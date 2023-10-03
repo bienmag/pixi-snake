@@ -1,8 +1,14 @@
-# React + Vite
+# pixi-football-snake
+A fun and simple game inspired by the classic Snake game, but with a football twist! This game is built using Pixi.js and JavaScript, and it's designed to entertain football enthusiasts and casual gamers alike.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to Play
+Use the arrow keys to control the direction of your snake. Collect as many footballs as you can. The game is designed that it doesn't end when running into the walls.
 
-Currently, two official plugins are available:
+## Future Features
+- add scoring
+- snake self-stop when running into it's own tail
+- smoother snake growth
+- refactor the code:)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ## To run on your machine 
+ Simply clone the repo, run yarn install and then yarn dev
