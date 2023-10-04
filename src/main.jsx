@@ -62,10 +62,12 @@ initialPlayer.y = app.screen.height / 2
 players.push(initialPlayer)
 app.stage.addChild(initialPlayer)
 
-const playerSpeed = 3
+let playerSpeed = 3
+let speedMultiplier = 1.5
 let playerVelocity = new PIXI.Point(0, 0)
 
 function animate() {
+  playerSpeed = 3 + players.length * 0.2 * speedMultiplier
   for (let i = players.length - 1; i > 0; i--) {
     players[i].x = players[i - 1].x
     players[i].y = players[i - 1].y
