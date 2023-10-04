@@ -1,3 +1,5 @@
+[PLAY IT](https://pixi-football-snake.vercel.app/)
+
 # pixi-football-snake
 A fun and simple game inspired by the classic Snake game, but with a football twist! This game is built using Pixi.js and JavaScript, and it's designed to entertain football enthusiasts and casual gamers alike.
 
